@@ -166,13 +166,6 @@ echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━�
 sleep 2
 clear
 wget -q "https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/install/ins-xray.sh" && chmod +x ins-xray.sh && ./ins-xray.sh
-#install Backup
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "$green      Install BACKUP         $NC"
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-sleep 2
-clear
-wget -q "https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/install/set-br.sh" && chmod +x set-br.sh && ./set-br.sh
 #install ssh ws
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "$green      Install SSH / WS               $NC"
