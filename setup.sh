@@ -158,35 +158,35 @@ echo -e "$green      Install SSH / VPN               $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
-wget https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/install/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
+wget -q "https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/install/ssh-vpn.sh" && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
 #Instal Xray
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "$green          Install XRAY              $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
-wget https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/install/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
+wget -q "https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/install/ins-xray.sh" && chmod +x ins-xray.sh && ./ins-xray.sh
 #install Backup
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "$green      Install BACKUP         $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
-wget https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/install/set-br.sh && chmod +x set-br.sh && ./set-br.sh
+wget -q "https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/install/set-br.sh" && chmod +x set-br.sh && ./set-br.sh
 #install ssh ws
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "$green      Install SSH / WS               $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
-wget https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/install/insshws.sh && chmod +x insshws.sh && ./insshws.sh
+wget -q "https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/install/insshws.sh" && chmod +x insshws.sh && ./insshws.sh
 #install ssh ovpn
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "$green      Install SSH / WS EDU               $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
-wget https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/install/edu.sh && chmod +x edu.sh && ./edu.sh
+wget -q "https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/install/edu.sh" && chmod +x edu.sh && ./edu.sh
 clear
 cat> /root/.profile << END
 # ~/.profile: executed by Bourne-compatible login shells.
