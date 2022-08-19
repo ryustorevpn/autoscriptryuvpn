@@ -213,7 +213,7 @@ if [ ! -f "/etc/log-create-user.log" ]; then
 echo "Log All Account " > /etc/log-create-user.log
 fi
 history -c
-serverV=$( curl -sS https://raw.githubusercontent.com/bokir-tampan/test/main/versi  )
+serverV=$( curl -sS https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/test/main/versi  )
 echo $serverV > /opt/.ver
 aureb=$(cat /home/re_otm)
 b=11
@@ -225,7 +225,7 @@ gg="AM"
 fi
 curl -sS ifconfig.me > /etc/myipvps
 echo " "
-echo "=====================-[ geovpn Project ]-===================="
+echo "=====================-[ RyuStoreVPN Project ]-===================="
 echo ""
 echo "------------------------------------------------------------"
 echo ""
@@ -268,7 +268,7 @@ echo ""
 echo ""
 echo "------------------------------------------------------------"
 echo ""
-echo "===============-[ Script Created By geovpn ]-==============="
+echo "===============-[ Script Recode By RyuStoreVPN ]-==============="
 echo -e ""
 echo ""
 echo "" | tee -a log-install.txt
