@@ -59,28 +59,6 @@ function os_detail () {
 }
 MYIP=$(curl -sS ipv4.icanhazip.com)
 #########################
-IZIN=$(curl -sS https://raw.githubusercontent.com/geovpn/perizinan/main/main/allow | awk '{print $4}' | grep $MYIP)
-if [ $MYIP = $IZIN ]; then
-echo -e "\e[32mPermission Accepted...\e[0m"
-else
-echo -e "\e[31mPermission Denied!\e[0m";
-exit 0
-fi
-#EXPIRED
-expired=$(curl -sS https://raw.githubusercontent.com/geovpn/perizinan/main/main/allow | grep $MYIP | awk '{print $3}')
-echo $expired > /root/expired.txt
-today=$(date -d +1day +%Y-%m-%d)
-while read expired
-do
-	exp=$(echo $expired | curl -sS https://raw.githubusercontent.com/geovpn/perizinan/main/main/allow | grep $MYIP | awk '{print $3}')
-	if [[ $exp < $today ]]; then
-		geo="\033[1;31mExpired\033[0m"
-        else
-        geo=$(curl -sS https://raw.githubusercontent.com/geovpn/perizinan/main/main/allow | grep $MYIP | awk '{print $3}')
-	fi
-done < /root/expired.txt
-rm /root/expired.txt
-Name=$(curl -sS https://raw.githubusercontent.com/geovpn/perizinan/main/main/allow | grep $MYIP | awk '{print $2}')
 # GETTING INFORMATION
 # =========================================================================================================
 # // OpenSSH
@@ -192,20 +170,12 @@ echo -e "OpenSSH             = $status_openssh"
 echo -e "Dropbear            = $status_dropbear"
 echo -e "Stunnel4            = $status_stunnel5"
 echo -e "Squid               = $status_squid"
-#echo -e "BadVPN 7100         = $status_badvpn1"
-#echo -e "BadVPN 7200         = $status_badvpn2"
-#echo -e "BadVPN 7300         = $status_badvpn3"
-#echo -e "OHP OpenSSH         = $status_ohp1"
-#echo -e "OHP Dropbear        = $status_ohp2"
-#echo -e "OHP Universal       = $status_ohp4"
 echo -e "NGINX               = $status_nginx"
-#echo -e "SSLH                = $status_sslh"
 echo -e "SSH NonTLS          = $status_ws_epro"
 echo -e "SSH TLS             = $status_ws_epro"
 echo -e "Vmess WS/GRPC       = $status_ss"
 echo -e "Vless WS/GRPC       = $status_ss"
 echo -e "Trojan WS/GRPC      = $status_ss"
-#echo -e "Shadowsocks WS/GRPC = $status_ss"
 echo -e ""
 echo -e "${RED_BG}                         Geo Project                      ${NC}"
 echo ""
