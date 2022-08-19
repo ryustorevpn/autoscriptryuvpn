@@ -22,11 +22,9 @@ echo "SSH Websocket" | lolcat
 echo "Websocket TLS / Websocket None TLS" | lolcat
 echo "Progress..." | lolcat
 sleep 3
-# Link Hosting Kalian
-geovpn="autosscript.site/aio/ws"
 
 # Getting Proxy Template
-wget -q -O /usr/local/bin/ws-tls https://${geovpn}/ws-tls.py
+wget -q -O /usr/local/bin/ws-tls https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/ws/ws-tls.py
 chmod +x /usr/local/bin/ws-tls
 
 # Installing Service
@@ -54,7 +52,7 @@ systemctl enable ws-tls
 systemctl restart ws-tls
 
 # Getting Proxy Template
-wget -q -O /usr/local/bin/ws-nontls https://${geovpn}/ws-nontls.py
+wget -q -O /usr/local/bin/ws-nontls https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/ws/ws-nontls.py
 chmod +x /usr/local/bin/ws-nontls
 
 # Installing Service
@@ -82,7 +80,7 @@ systemctl enable ws-nontls
 systemctl restart ws-nontls
 
 # Getting Proxy Template
-wget -q -O /usr/local/bin/ws-ovpn https://${geovpn}/ws-ovpn.py
+wget -q -O /usr/local/bin/ws-ovpn https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/ws/ws-ovpn.py
 chmod +x /usr/local/bin/ws-ovpn
 
 # Installing Service
