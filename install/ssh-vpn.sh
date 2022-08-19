@@ -293,8 +293,8 @@ wget -O menu "https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/mai
 wget -O sshws "https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/ssh/sshws.sh"
 wget -O running "https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/ssh/unning.sh"
 wget -O renewws "https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/ssh/renewws.sh"
-wget -O /usr/local/sbin/cekws https://autosscript.site/aio/cekws.sh && chmod +x /usr/local/sbin/cekws && cd /usr/local/sbin && apt install -y dos2unix && dos2unix cekws
-wget -O /usr/local/sbin/cekusage https://autosscript.site/aio/cekusage.sh && chmod +x /usr/local/sbin/cekusage && cd /usr/local/sbin && apt install -y dos2unix && dos2unix cekusage
+wget -O /usr/local/sbin/cekws https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/ssh/cekws.sh && chmod +x /usr/local/sbin/cekws && cd /usr/local/sbin && apt install -y dos2unix && dos2unix cekws
+wget -O /usr/local/sbin/cekusage https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/ssh/cekusage.sh && chmod +x /usr/local/sbin/cekusage && cd /usr/local/sbin && apt install -y dos2unix && dos2unix cekusage
 chmod +x addssh
 chmod +x menu
 chmod +x hapus
