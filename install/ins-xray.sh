@@ -502,14 +502,14 @@ systemctl enable runn
 systemctl restart runn
 
 sleep 1
-wget -q -O /usr/bin/add-ws "https://autosscript.site/aio/add-ws.sh" && chmod +x /usr/bin/add-ws
-wget -q -O /usr/bin/add-vless "https://autosscript.site/aio/add-vless.sh" && chmod +x /usr/bin/add-vless
-wget -q -O /usr/bin/add-tr "https://autosscript.site/aio/add-tr.sh" && chmod +x /usr/bin/add-tr
-wget -q -O /usr/bin/del-user "https://autosscript.site/aio/del-ws.sh" && chmod +x /usr/bin/del-user
-#wget -q -O /usr/bin/cek-user "https://autosscript.site/aio/cek-ws.sh" && chmod +x /usr/bin/cek-ws
-wget -q -O /usr/bin/renew-user "https://autosscript.site/aio/renew-ws.sh" && chmod +x /usr/bin/renew-user
-wget -q -O /usr/bin/crtv2ray "https://autosscript.site/aio/crt.sh" && chmod +x /usr/bin/crtv2ray
-wget -q -O /usr/bin/add-ssws "https://autosscript.site/aio/add-ssws.sh" && chmod +x /usr/bin/add-ssws
+wget -q -O /usr/bin/add-ws "https://github.com/ryustorevpn/autoscriptryuvpn/blob/main/xray/add-ws.sh" && chmod +x /usr/bin/add-ws
+wget -q -O /usr/bin/add-vless "https://github.com/ryustorevpn/autoscriptryuvpn/blob/main/xray/add-vless.sh" && chmod +x /usr/bin/add-vless
+wget -q -O /usr/bin/add-tr "https://github.com/ryustorevpn/autoscriptryuvpn/blob/main/xray/add-tr.sh" && chmod +x /usr/bin/add-tr
+wget -q -O /usr/bin/del-user "https://github.com/ryustorevpn/autoscriptryuvpn/blob/main/xray/del-ws.sh" && chmod +x /usr/bin/del-user
+#wget -q -O /usr/bin/cek-user "https://github.com/ryustorevpn/autoscriptryuvpn/blob/main/xray/cek-ws.sh" && chmod +x /usr/bin/cek-ws
+wget -q -O /usr/bin/renew-user "https://github.com/ryustorevpn/autoscriptryuvpn/blob/main/xray/renew-ws.sh" && chmod +x /usr/bin/renew-user
+wget -q -O /usr/bin/crtv2ray "https://github.com/ryustorevpn/autoscriptryuvpn/blob/main/xray/crt.sh" && chmod +x /usr/bin/crtv2ray
+wget -q -O /usr/bin/add-ssws "https://github.com/ryustorevpn/autoscriptryuvpn/blob/main/xray/add-ssws.sh" && chmod +x /usr/bin/add-ssws
 sleep 1
 yellow() { echo -e "\\033[33;1m${*}\\033[0m"; }
 yellow "xray/Vmess"
