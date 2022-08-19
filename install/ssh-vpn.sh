@@ -295,7 +295,6 @@ wget -O running "https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/
 wget -O renewws "https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/ssh/renewws.sh"
 wget -O /usr/local/sbin/cekws https://autosscript.site/aio/cekws.sh && chmod +x /usr/local/sbin/cekws && cd /usr/local/sbin && apt install -y dos2unix && dos2unix cekws
 wget -O /usr/local/sbin/cekusage https://autosscript.site/aio/cekusage.sh && chmod +x /usr/local/sbin/cekusage && cd /usr/local/sbin && apt install -y dos2unix && dos2unix cekusage
-#chmod +x cekws
 chmod +x addssh
 chmod +x menu
 chmod +x hapus
@@ -308,7 +307,6 @@ chmod +x xp
 chmod +x asu
 chmod +x sshws
 chmod +x running
-#chmod +x cekws
 chmod +x renewws
 cd
 
