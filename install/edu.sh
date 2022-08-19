@@ -1,6 +1,5 @@
 #!/bin/bash
 # Proxy For Edukasi & Imclass
-# My Telegram : https://t.me/geovpn
 # ==========================================
 # Color
 RED='\033[0;31m'
