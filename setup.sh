@@ -150,7 +150,7 @@ echo -e "$green      Install Cloudflare   $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
-wget -q "https://autosscript.site/aio/cf.sh" && chmod +x cf.sh && ./cf.sh
+wget -q "https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/install/cf.sh" && chmod +x cf.sh && ./cf.sh
 clear
 #install ssh ovpn
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
