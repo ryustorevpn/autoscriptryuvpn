@@ -280,20 +280,19 @@ netfilter-persistent reload
 
 # download script
 cd /usr/local/sbin
-wget -O addssh "https://autosscript.site/aio/addssh.sh"
-wget -O hapus "https://autosscript.site/aio/hapus.sh"
-wget -O member "https://autosscript.site/aio/member.sh"
-wget -O renew "https://autosscript.site/aio/renew.sh"
-wget -O cek "https://autosscript.site/aio/cek.sh"
-wget -O addhost "https://autosscript.site/aio/addhost.sh"
-wget -O speedtest "https://autosscript.site/aio/speedtest_cli.py"
-wget -O xp "https://autosscript.site/aio/xp.sh"
-wget -O asu "https://autosscript.site/aio/asu.sh"
-wget -O menu "https://autosscript.site/aio/menu.sh"
-wget -O sshws "https://autosscript.site/aio/sshws.sh"
-wget -O running "https://autosscript.site/aio/running.sh"
-#wget -O cek-ws "https://autosscript.site/aio/cek-ws.sh"
-wget -O renewws "https://autosscript.site/aio/renewws.sh"
+wget -O addssh "https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/ssh/addssh.sh"
+wget -O hapus "https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/ssh/hapus.sh"
+wget -O member "https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/ssh/member.sh"
+wget -O renew "https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/ssh/renew.sh"
+wget -O cek "https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/ssh/cek.sh"
+wget -O addhost "https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/ssh/addhost.sh"
+wget -O speedtest "https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/ssh/speedtest_cli.py"
+wget -O xp "https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/ssh/xp.sh"
+wget -O asu "https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/ssh/asu.sh"
+wget -O menu "https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/ssh/menu.sh"
+wget -O sshws "https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/ssh/sshws.sh"
+wget -O running "https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/ssh/unning.sh"
+wget -O renewws "https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/ssh/renewws.sh"
 wget -O /usr/local/sbin/cekws https://autosscript.site/aio/cekws.sh && chmod +x /usr/local/sbin/cekws && cd /usr/local/sbin && apt install -y dos2unix && dos2unix cekws
 wget -O /usr/local/sbin/cekusage https://autosscript.site/aio/cekusage.sh && chmod +x /usr/local/sbin/cekusage && cd /usr/local/sbin && apt install -y dos2unix && dos2unix cekusage
 #chmod +x cekws
