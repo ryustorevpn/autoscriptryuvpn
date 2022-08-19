@@ -259,7 +259,7 @@ cat> /etc/issue.net << END
 END
 
 #install bbr dan optimasi kernel
-wget https://autosscript.site/aio/bbr.sh && chmod +x bbr.sh && ./bbr.sh
+wget https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/file/bbr.sh && chmod +x bbr.sh && ./bbr.sh
 
 # blockir torrent
 iptables -A FORWARD -m string --string "get_peers" --algo bm -j DROP
