@@ -112,7 +112,7 @@ echo -e "[${GREEN}08${NC}]${RED} •${NC} Add Vless Account$NC    [${GREEN}17${N
 echo -e "[${GREEN}09${NC}]${RED} •${NC} Addd Trojan Account$NC  [${GREEN}18${NC}]${RED} • ${NC}Running $NC"
 echo -e " ${RED}"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
-echo -e "${RED_BG}                      GEO PROJECT                         ${NC}"
+echo -e "${RED_BG}                      RyuStoreVPN PROJECT                         ${NC}"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 echo -e "${GREEN}CLIENT NAME${NC}    ${RED}•$NC $Name"
 echo -e "${GREEN}SCRIPT EXPIRED${NC} ${RED}•$NC $exp"
