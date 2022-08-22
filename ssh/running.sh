@@ -1,8 +1,8 @@
 #!/bin/bash
 # Welcome Information
 # Edition : Stable Edition V1.0
-# Auther  : ADIT ARDIANSYAH
-# (C) Copyright 2021-2022 By Geo Project
+# Auther  : MAULANA ADITYA
+# (C) Copyright 2022-2023 By RYUSTOREVPN
 # =========================================
 
 # // Exporting Language to UTF-8
