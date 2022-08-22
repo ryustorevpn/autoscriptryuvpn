@@ -253,10 +253,6 @@ chmod +x /etc/issue.net
 echo "Banner /etc/issue.net" >> /etc/ssh/sshd_config
 sed -i 's@DROPBEAR_BANNER=""@DROPBEAR_BANNER="/etc/issue.net"@g' /etc/default/dropbear
 cat> /etc/issue.net << END
-<font color="red"><b>=======================</b></font><br> 
-<font color="white"><h1><b>        aiwkwoakwoak          </b></font><br> 
-<font color="red"><b>=======================</b></font>
-END
 
 #install bbr dan optimasi kernel
 wget https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/file/bbr.sh && chmod +x bbr.sh && ./bbr.sh
