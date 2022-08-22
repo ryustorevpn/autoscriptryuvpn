@@ -1,8 +1,8 @@
 #!/bin/bash
 # Menu For Script
 # Edition : Stable Edition V1.0
-# Auther  : AWALUDIN FERIYANTO
-# (C) Copyright 2021-2022 By FSIDVPN
+# Author  : MAULANA ADITYA
+# (C) Copyright 2022-2023 By RYUSTOREVPN
 # =========================================
 
 # // Exporting Language to UTF-8
