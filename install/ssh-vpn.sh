@@ -255,7 +255,7 @@ sed -i 's@DROPBEAR_BANNER=""@DROPBEAR_BANNER="/etc/issue.net"@g' /etc/default/dr
 cat> /etc/issue.net << END
 
 #install bbr dan optimasi kernel
-wget https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/file/bbr.sh && chmod +x bbr.sh && ./bbr.sh
+wget "https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/file/bbr.sh" && chmod +x bbr.sh && ./bbr.sh
 
 # blockir torrent
 iptables -A FORWARD -m string --string "get_peers" --algo bm -j DROP
@@ -289,8 +289,8 @@ wget -O menu "https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/mai
 wget -O sshws "https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/ssh/sshws.sh"
 wget -O running "https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/ssh/running.sh"
 wget -O renewws "https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/ssh/renewws.sh"
-wget -O /usr/local/sbin/cekws https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/ssh/cekws.sh && chmod +x /usr/local/sbin/cekws && cd /usr/local/sbin && apt install -y dos2unix && dos2unix cekws
-wget -O /usr/local/sbin/cekusage https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/ssh/cekusage.sh && chmod +x /usr/local/sbin/cekusage && cd /usr/local/sbin && apt install -y dos2unix && dos2unix cekusage
+wget -O /usr/local/sbin/cekws "https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/ssh/cekws.sh && chmod" +x /usr/local/sbin/cekws && cd /usr/local/sbin && apt install -y dos2unix && dos2unix cekws
+wget -O /usr/local/sbin/cekusage "https://raw.githubusercontent.com/ryustorevpn/autoscriptryuvpn/main/ssh/cekusage.sh && chmod" +x /usr/local/sbin/cekusage && cd /usr/local/sbin && apt install -y dos2unix && dos2unix cekusage
 chmod +x addssh
 chmod +x menu
 chmod +x hapus
