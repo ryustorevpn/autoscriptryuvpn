@@ -123,7 +123,7 @@ echo "IP=" >> /var/lib/geovpn/ipvps.conf
 if [ -f "/etc/xray/domain" ]; then
 echo ""
 clear
-echo -ne "[ ${yell}WARNING${NC} ] Do you want to install ? (y/n)? "
+echo -ne "[ ${yell}WARNING${NC} ] INSTALL AJA COK TEKAN Y ? (y/n)? "
 read answer
 if [ "$answer" == "${answer#[Yy]}" ] ;then
 rm setup.sh
